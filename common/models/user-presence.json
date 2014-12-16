@@ -1,0 +1,23 @@
+{
+  "name": "UserPresence",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "_id": {
+      "type": "string",
+      "required": true
+    },
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
